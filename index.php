@@ -2,7 +2,7 @@
 ob_start('ob_gzhandler');
 $ttti = time();
 error_reporting(0);
-define('API_KEY','[*[TOKEN]*]');
+define('API_KEY','[*[7647177541:AAEFg3LFGyrdIQfzd6bqHxLr0V4Nk4RdiUs]*]');
 date_default_timezone_set('Asia/Tehran');
 //-----------------------------------------------------------------------------------------
 $telegram_ip_ranges = [
@@ -135,7 +135,7 @@ $ADMIN = array("[*[ADMIN]*]","[*[ADMIN]*]");
 $admin = "[*[ADMIN]*]"; //نایدی عددی ادمی
 $channel = file_get_contents("channel.txt"); 
 $channelcode = file_get_contents("channelcode.txt"); 
-$token = "[*[TOKEN]*]";
+$token = "[*[7647177541:AAEFg3LFGyrdIQfzd6bqHxLr0V4Nk4RdiUs]*]";
 $Support = file_get_contents("Support.txt");
 @$staroff = file_get_contents("staroff.txt");
 @$bankboton = file_get_contents("bankboton.txt");
